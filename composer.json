@@ -1,6 +1,6 @@
 {
     "description": 	"This repository contains Aspose_Html_Cloud_SDK for PHP source code. Aspose Cloud SDK for PHP lets PHP developers convert and process a variety of file formats in the cloud quickly and easily.",
-    "name": 		"aspose/html-sdk-php",
+    "name": 		"aspose/aspose-html-cloud-php",
     "type": 		"library",
     "keywords" : 	["html2pdf", "epub2pdf", "html2md", "html2img", "html2xps", "epub2xps", "convert", "trace", "vectorize", "img2svg"],
 	"license": 		"MIT",
