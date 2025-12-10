@@ -138,11 +138,11 @@ try {
 All URIs are relative to *https://api.aspose.cloud/v4.0*
 
 Possible conversions:
-- HTML -> PDF, XPS, DOCX, MD, MHTML, JPEG, BMP, PNG, TIFF, GIF
-- EPUB -> PDF, XPS, DOCX, JPEG, BMP, PNG, TIFF, GIF
-- MD -> PDF, XPS, DOCX, HTML, MHTML, JPEG, BMP, PNG, TIFF, GIF
-- MHTML -> PDF, XPS, DOCX, JPEG, BMP, PNG, TIFF, GIF
-- SVG -> PDF, XPS, JPEG, BMP, PNG, TIFF, GIF
+- HTML -> PDF, XPS, DOCX, MD, MHTML, JPEG, BMP, PNG, TIFF, GIF, WEBP
+- EPUB -> PDF, XPS, DOCX, JPEG, BMP, PNG, TIFF, GIF, WEBP
+- MD -> PDF, XPS, DOCX, HTML, MHTML, JPEG, BMP, PNG, TIFF, GIF, WEBP
+- MHTML -> PDF, XPS, DOCX, JPEG, BMP, PNG, TIFF, GIF, WEBP
+- SVG -> PDF, XPS, JPEG, BMP, PNG, TIFF, GIF, WEBP
 - JPEG, BMP, PNG, TIFF, GIF -> SVG
 
 <a name="html_api"></a>
@@ -165,14 +165,14 @@ Possible conversions:
 
 
 ## conversionOptions
-| Options                                                          | Description                                       |
-|------------------------------------------------------------------|---------------------------------------------------|
-| [**PDFOptions**](docs/ConversionOptions.md#PDFOptions)           | Convert to the PDF format.                        |
-| [**ImageOptions**](docs/ConversionOptions.md#ImageOptions)       | Convert to images (JPEG, PNG, GIF, TIFF, BMP).    |
-| [**XPSOptions**](docs/ConversionOptions.md#XPSOptions)           | Convert to the XPS format.                        |
-| [**DocOptions**](docs/ConversionOptions.md#DocOptions)           | Convert to the DOCX format.                       |
-| [**SvgOptions**](docs/ConversionOptions.md#SvgOptions)           | Trace images to the SVG format.                   |
-| [**MarkdownOptions**](docs/ConversionOptions.md#MarkdownOptions) | Convert the HTML document to the markdown format. |
+| Options                                                          | Description                                            |
+|------------------------------------------------------------------|--------------------------------------------------------|
+| [**PDFOptions**](docs/ConversionOptions.md#PDFOptions)           | Convert to the PDF format.                             |
+| [**ImageOptions**](docs/ConversionOptions.md#ImageOptions)       | Convert to images (JPEG, PNG, GIF, TIFF, BMP, WEBP).  |
+| [**XPSOptions**](docs/ConversionOptions.md#XPSOptions)           | Convert to the XPS format.                             |
+| [**DocOptions**](docs/ConversionOptions.md#DocOptions)           | Convert to the DOCX format.                            |
+| [**SvgOptions**](docs/ConversionOptions.md#SvgOptions)           | Trace images to the SVG format.                        |
+| [**MarkdownOptions**](docs/ConversionOptions.md#MarkdownOptions) | Convert the HTML document to the markdown format.      |
 
 ## vectorizationOptions
 
